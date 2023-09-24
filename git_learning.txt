@@ -1,0 +1,25 @@
+---Git Commands---
+
+To initialise git project git init.
+To see the status git.status. 
+To create new folder mkdir foldername.
+To create new file inside folder touch filename.txt.
+To add text into file nano file.txt.
+To see the content in the file cat file.txt.
+To add all files in current folder git add . 
+To add individual files git add filename.
+To commit git commit -m "add any message".
+To see the changes made in the repository git log.
+To delete a file rm -rf names.txt.
+To undo the commit copy commit hash using git log (when copied it remove commit for the above all commited ones)  git reset copiedhash.    
+if we donot want to commit the added changes then we can restore the changes to older git restore --staged names.txt
+git stash
+To Connect github and git create repository in github and copy link and in git add command git remote add origin pastelink
+To push all changes made in git to github is git push origin master 
+
+To create new branch git branch branchname
+
+Fork means someone has repo which do not have access to edit or change directly in that so for that if we want to contribute we can fork that means the entire project we can have under our account and make changes.
+
+
+And after fork we have changed many things and we want to add those new changes into the authors code so that it is visible to everyone this can be done using PULL request . once pull request is made they validate the code and all then merge if they need.
